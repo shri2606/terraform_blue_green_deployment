@@ -79,7 +79,7 @@ This will initialize the Terraform backend (S3) and download required provider p
 
 ```bash
 chmod +x cleanup_env.sh
-./cleanup_env.sh blue   # or green
+./cleanup.sh blue   # or green
 ```
 
 This script automatically checks the currently active environment and prevents accidental destruction of live infrastructure.
